@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/item_background"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="30dp" >
+
+    <TextView
+        android:id="@+id/int_demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="25sp" />
+
+    <View
+        android:id="@+id/alpha_demo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_dark" />
+
+
+    <View
+        android:id="@+id/group_anim_demo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_dark" />
+    
+    <com.example.ymj.view.MyAnimView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout><!-- From: file:/Users/yangmingjuan/myGithub/android/ymj-android-demo/app/src/main/res/layout/animator_demo_layout.xml -->
